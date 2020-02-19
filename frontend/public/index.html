@@ -9,7 +9,6 @@
         fetch('http://localhost:8080')
         .then(response => response.json())
         .then(data => document.querySelector("#mouse").innerHTML = JSON.stringify(data))
-        .finally(console.log('promise handled'))
 
 
     </script>
